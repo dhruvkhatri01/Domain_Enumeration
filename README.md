@@ -69,10 +69,17 @@ The codebase can evolve to include:
 
 ## 💻 How to Run
 
-### 📦 Requirements
+### ✅ Prerequisites
 
-Install dependencies using pip:
+Install required Python libraries:
 
+```bash
+pip install tqdm dnspython colorama argparse
+```
+
+---
+
+Follow these steps:
 ```bash
 python -m venv venv # To Create Environment Variable.
 venv\Scripts\Activate # Activate It.
@@ -81,7 +88,7 @@ Python <file_name>.py --domain example.com # Run the Code
 
 ---
 
-## 📁 Output 
+## 📁 Output Sample
 
 ```bash
 [+] Starting DNS Enumeration for: example.com
